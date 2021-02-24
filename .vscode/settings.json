@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "secure_services.h": "c",
+        "socket.h": "c",
+        "zephyr.h": "c",
+        "measures.h": "c",
+        "custom_secure.h": "c"
+    }
+}

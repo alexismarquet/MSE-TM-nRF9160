@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "./application/build/zephyr/zephyr.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "device": "NRF9160_XXAA",
+            //"serialNumber": "820101081",
+            "interface": "swd",
+            "runToMain": true,
+            "servertype": "jlink",
+            "rtos": "",
+            "svdFile": "${workspaceFolder}/nrf9160.svd",
+        },
+        {
+            "name": "attach",
+            "cwd": "${workspaceRoot}",
+            "executable": "./application/build/zephyr/zephyr.elf",
+            "request": "attach",
+            "type": "cortex-debug",
+            "device": "NRF9160_XXAA",
+            //"serialNumber": "820101081",
+            "interface": "swd",
+            "runToMain": true,
+            "servertype": "jlink",
+            "rtos": "",
+            "svdFile": "${workspaceFolder}/nrf9160.svd",
+        }
+    ]
+}
